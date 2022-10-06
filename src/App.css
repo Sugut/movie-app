@@ -2,8 +2,11 @@ body{
     background-color: #22254b;
     color: white;
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
 }
-
 
 .movies{
     display: grid;
@@ -24,7 +27,6 @@ body{
     height: 12rem;
     object-fit: cover;
     width: 100%;
-}
 
 .movie-info{
     padding: 0 0.5rem;
@@ -34,6 +36,26 @@ body{
     font-size: 15px;
 }
 
+
 .movie-info p{
     font-size: 12px;
+
+}
+.grid{
+    display: grid;
+    margin-left: .5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.2cm;
+    justify-content: center;
+}
+.search{
+    background-color: #373b69;
+    padding: 1rem;
+    border: 0.5px solid;
+}
+.navigate{
+    background-color: #373b69;
+    padding: 1rem;
+    border-style: inherit;
+
 }

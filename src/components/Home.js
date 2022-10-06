@@ -4,6 +4,7 @@ import React from "react";
 function Home({movies}){
    const imgApi="https://image.tmdb.org/t/p/w500/"
       return(
+
             <div className="movies">
                 {movies.map(movie=>{
                 return (
@@ -17,7 +18,7 @@ function Home({movies}){
                 )
                 })};   
             </div>
-    )
+            )
 }
 
 export default Home;
