@@ -15,7 +15,7 @@ function App() {
            console.log(data)
    },[])
   return (
-    <div className="movie-container">
+    <div className="app">
        <Navbar/>
        <Home movies={movies}/>
     </div>
