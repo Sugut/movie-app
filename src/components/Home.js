@@ -4,7 +4,7 @@ import React from "react";
 function Home({movies}){
    const imgApi="https://image.tmdb.org/t/p/w500/"
       return(
-          <div className="movies">
+          <div className="card text-center bg-secendary mb-3">
              {movies.map(movie=>{
               return <div className="movie-list" key ={movie.id}>
                     <img className="movies" src ={imgApi+movie.poster_path} alt="" /> 

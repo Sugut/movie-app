@@ -4,19 +4,26 @@ body{
     background-color: #22254b;
     color: white;
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
 }
 .movie-container{
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .movie{
     background-color: #373b69;
     border-radius: 3px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1) ;
-    margin: 1rem;
+    margin: 0.5rem;
     grid-template-columns: auto;
     width: 25 0px;
 }
+
 .movie img{
     max-width: 100%;
 }
@@ -32,4 +39,21 @@ body{
 .movie-list{
     border: 1px solid;
 
+}
+.grid{
+    display: grid;
+    margin-left: .5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.2cm;
+    justify-content: center;
+}
+.search{
+    background-color: #373b69;
+    padding: 1rem;
+    border: 0.5px solid;
+}
+.navigate{
+    background-color: #373b69;
+    padding: 1rem;
+    border-style: inherit;
 }
